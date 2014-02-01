@@ -3,7 +3,7 @@ package App::ZofCMS::PluginBundle::Naughty;
 use strict;
 use warnings;
 
-our $VERSION = '1.001001'; # VERSION
+our $VERSION = '1.001002'; # VERSION
 
 q|
 Programming is 10% science, 20% ingenuity, and 70% getting the
@@ -14,13 +14,32 @@ __END__
 
 =encoding utf8
 
+=for stopwords captchas
+
 =head1 NAME
 
 App::ZofCMS::PluginBundle::Naughty - a collection of ZofCMS plugins that are troublesome to install
 
 =head1 DESCRIPTION
 
-See documentation for individual modules in this distribution.
+This distribution contains L<App::ZofCMS> plugins that are difficult to
+install, because they required C libraries to be installed, or
+need some extra resources to be downloaded during the install.
+These are the plugins available in this bundle:
+
+=over 4
+
+=item * L<App::ZofCMS::Plugin::Captcha> utilize security images (captchas)
+
+=item * L<App::ZofCMS::Plugin::ImageGallery> CRUD-like plugin for managing images
+
+=item * L<App::ZofCMS::Plugin::ImageResize> Plugin to resize images
+
+=item * L<App::ZofCMS::Plugin::RandomPasswordGenerator> easily generate random passwords with an option to use md5_hex from Digest::MD5 on them
+
+=item * L<App::ZofCMS::Plugin::Search::Indexer> plugin that incorporates L<Search::Indexer> module's functionality
+
+=back
 
 =head1 REPOSITORY
 

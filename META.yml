@@ -20,22 +20,22 @@ name: App-ZofCMS-PluginBundle-Naughty
 provides:
   App::ZofCMS::Plugin::Captcha:
     file: lib/App/ZofCMS/Plugin/Captcha.pm
-    version: 1.001001
+    version: 1.001002
   App::ZofCMS::Plugin::ImageGallery:
     file: lib/App/ZofCMS/Plugin/ImageGallery.pm
-    version: 1.001001
+    version: 1.001002
   App::ZofCMS::Plugin::ImageResize:
     file: lib/App/ZofCMS/Plugin/ImageResize.pm
-    version: 1.001001
+    version: 1.001002
   App::ZofCMS::Plugin::RandomPasswordGenerator:
     file: lib/App/ZofCMS/Plugin/RandomPasswordGenerator.pm
-    version: 1.001001
+    version: 1.001002
   App::ZofCMS::Plugin::Search::Indexer:
     file: lib/App/ZofCMS/Plugin/Search/Indexer.pm
-    version: 1.001001
+    version: 1.001002
   App::ZofCMS::PluginBundle::Naughty:
     file: lib/App/ZofCMS/PluginBundle/Naughty.pm
-    version: 1.001001
+    version: 1.001002
 requires:
   App::ZofCMS::Plugin::Base: 0
   DBI: 0
@@ -57,7 +57,7 @@ resources:
   bugtracker: https://github.com/zoffixznet/app-zofcms-pluginbundle-naughty/issues
   homepage: http://metacpan.org/release/App-ZofCMS-PluginBundle-Naughty
   repository: git://github.com/zoffixznet/app-zofcms-pluginbundle-naughty.git
-version: 1.001001
+version: 1.001002
 x_Dist_Zilla:
   perl:
     version: 5.014002
